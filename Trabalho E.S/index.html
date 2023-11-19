@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<script src="./jvscript.js"></script>
+    <title>Login</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Nosifer&display=swap" rel="stylesheet">
+</head>
+<body class="login">
+	<div class="Logo"><h1><span class="logo_1">Animes.</span><span class="logo_2">HUB</span></h1></div>
+	<div class="LOGINdiv2">
+	<form>
+		
+	<table class="LOGINtable">
+		<tr>
+			<th>
+				<p><strong>Administrador</strong></p>
+				<input type="text" placeholder="usuário: admin" id="login">
+			</th>
+		</tr>
+		<tr>
+			<th>
+				<span><strong>Senha:</strong></span>
+				<input type="password" placeholder="Senha" id="senha">
+			</th>
+		</tr>
+		<tr>
+			<th>
+				Mostrar Senha <input type="checkbox" onclick="mostraOCultarSenha()">
+			</th>
+		</tr>
+		<tr>
+			<th><input type="submit" onclick="logar(); return false" value="ENTRAR"></th>
+		</tr>
+	</table>
+		
+	</form>
+	</div>
+</body>
+</html>

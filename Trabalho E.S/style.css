@@ -1,0 +1,194 @@
+*{
+	box-sizing: border-box;
+}
+/*AQUI MUDA O CORPO DA PÁGINA*/
+body.login{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	background-image: url("imagem_fundo3.jpg");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+/* AQUI EDITA A PRIMEIRA DIV, ONDE ESTÁ A LOGO DA PÁGINA*/
+.Logo{
+	text-align: center;
+	display: inline-block;
+	margin: 5px;
+	background-color: #1C1C1C;
+	width: 100%;
+}
+
+/*A LOGO É DIVIDIDA EM DUAS PARTES, ESTA EDITA A PRIMEIRA PARTE DA LOGO, NO CASO O TEXTO "ANIMES."*/
+.logo_1{
+	font-family: 'Nosifer', sans-serif;
+	color: white;
+	font-size: 40px;
+}
+
+/* AQUI EDITA A SEGUNDA PARTE DA LOGO, NO CASO O TEXTO "HUB"*/
+.logo_2{
+	color: black;
+	background-color: orange;
+	font-family: 'Nosifer', sans-serif;
+	font-size: 40px;
+}
+
+/*A QUI EDITA A SEGUNDA DIV, ONDE ESTÁ A TABELA PARA O ADM LOGAR NA PÁGINA*/
+.LOGINdiv2{
+	display: flex;
+	justify-content: center;
+	height: 480px;
+	width: 100%;
+}
+
+/* AQUI EDITA A TABELA NA QUAL O USUÁRIO IRÁ LOGAR NO SITE*/
+
+
+
+
+/* Aqui é só os testes da Home Carai*/
+body.animes{
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.tituloANIMES{
+    width: 100%;
+	margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    background: #181829;
+    border-bottom: 1px solid #181829;
+}
+
+.tituloANIMES h1{
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.CapaAnimes{
+	width: 203px;
+	height: 305px;
+	object-fit: cover;
+}
+
+.conteiner{
+	display: flex;
+	justify-content: center;
+	margin: 0 10px;
+}
+
+.div1{
+	background-color: rgb(42, 21, 21);
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+
+div.devs{
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	display: flex;
+	background-color: rgb(30, 32, 32);
+	width: 100%;
+}
+
+div.conteinerAnimes{
+	display: flex;
+	align-items: left;
+	text-align: justify;
+
+}
+
+div.Sinopse_anime{
+	width: 90%;
+	background-color: rgb(61, 61, 44);
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 4px;
+	margin-right: 5px;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: justify;
+	position: relative;
+}
+
+p.sinopsedoanime{
+	text-align: justify;
+	font-size: 17px;
+	font-family: 'Times New Roman', Times, serif;
+	color: lightgrey;
+
+}
+
+div.foto_anime{
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.Animefoto{
+	width: 40vh;
+	height: 60vh;
+}
+
+
+div.episodioss{
+	padding-top: 20px;
+	/* width: max-content 150px; */
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+}
+
+
+video{
+	width: 200px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color:aquamarine;
+	text-decoration: none;
+}
+
+.LOGINtable{
+	height: 200px;
+	width: 200px;
+	background-color: #1C1C1C;
+	font-family: Arial;
+}
+
+table{
+	border-collapse: collapse;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 0 20px;
+	align-items: center;
+}
+
+
+.tabelaAnimes,
+.tabelaAnimes td,
+.tabelaAnimes tr,
+.tabelaAnimes th{
+	align-items:center;
+	border: 1px solid red;
+	margin: 0 20px;
+}
+
+
+
